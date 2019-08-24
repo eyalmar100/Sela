@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Hilton",
+      "address": "Eilat",
+      "price": 100
+       
+    },
+    {
+      "name": "Herodes",
+      "address": "Rome",
+      "price": 48
+       
+    },
+    {
+      "name": "Sheraton",
+      "address": "Paris",
+      "price": 210
+       
+    }
+     
+]
