@@ -1,11 +1,6 @@
 package sela.controller;
 
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 import java.util.stream.Stream;
 
 import org.apache.log4j.Logger;
@@ -36,7 +31,7 @@ public class VendorController {
 	 
 		List<Pair<String, Hotel>> hotelsList=null;
 		 
-		hotelsList = hotelLookupService.findHotelAsync(hotel.toLowerCase());
+		hotelsList = hotelLookupService.findAllHotels(hotel.toLowerCase());
 	 
 		 
 	        
@@ -50,17 +45,7 @@ public class VendorController {
 	 		 
 	}
 
-	private Pair<String, Hotel> findMinPriceOfHotelFromAllVendors(String hotel, int min,Pair<String, Hotel> cheapestVendor, List<Pair<String, Hotel>> hotelsList) {
-		for (Pair<String, Hotel> pair : hotelsList) {
-			 
-			 	if (pair.getValue().getPrice() < min) {
-					min = pair.getValue().getPrice();
-					cheapestVendor = pair;
-				}
-			 
-		}
-		return cheapestVendor;
-	}
+	 
 	
 	
 	

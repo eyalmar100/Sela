@@ -4,6 +4,10 @@
   <artifactId>sela</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   
   <dependencies>
 		<dependency>
@@ -39,10 +43,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	
+	
 	<modules>
-  	<module>vendor1</module>
+  	<!-- <module>vendor1</module> -->
   	<module>common-sela</module>
   	<module>vendor2</module>
   	<module>sela-main</module>
+  	<!-- <module>vendor3</module> -->
 	</modules>
 </project>
