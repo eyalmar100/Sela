@@ -6,9 +6,10 @@ import org.springframework.stereotype.Component;
 
 import javafx.util.Pair;
 import sela.model.Hotel;
+import lombok.*;
 
  
-@Component 
+
 public class PairComarator implements Comparator<Pair<String, Hotel>>{
 
 	@SuppressWarnings("null")

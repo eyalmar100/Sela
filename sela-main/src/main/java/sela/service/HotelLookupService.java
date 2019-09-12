@@ -62,6 +62,10 @@ public class HotelLookupService {
 		}
 		return listOfPairs;
 	}
+	
+	public String getTestString() {
+		return "Hello Test";
+	}
 
 	@PreDestroy
 	public void destroy() {

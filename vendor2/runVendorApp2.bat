@@ -1,0 +1,1 @@
+java -jar -Dserver.port=9021 -Ddb.table=db/Hotels2.json target\vendor2-0.0.1-SNAPSHOT.jar

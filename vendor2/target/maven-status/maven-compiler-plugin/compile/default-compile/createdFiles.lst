@@ -1,4 +1,6 @@
 sela\Main.class
 sela\controller\HotelController.class
-sela\dao\HotelsDao.class
+sela\dao\DevHotelsDao.class
+sela\dao\IHotelDao.class
+sela\dao\ProdHotelDao.class
 sela\service\HotelService.class
