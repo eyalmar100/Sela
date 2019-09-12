@@ -9,9 +9,9 @@ Flow: User enter url like :  http://localhost:9020/api/name_of_hotel
    Once a request by user is made, the main service ask each vendor site send back the price hotel , this request run simultaneously .
    If one of the services is down , it throws exception, but without stopping any other service.
    
-  # I used Json file to simulate DB , so as a 'dev' profile , the json files get read  by the vendor service when it starts to run
-  # In 'prod' profile there is a mechanism made of spring data which should access real db and gets the requested hotel
+   I used Json file to simulate DB , so as a 'dev' profile , the json files get read  by the vendor service when it starts to run
+   In 'prod' profile there is a mechanism made of spring data which should access real db and gets the requested hotel
   
-  # There are few tests for testing the buisness logic using mock rest call .
+   There are few tests for testing the buisness logic using mock rest call .
   
    
