@@ -13,5 +13,8 @@ Flow: User enter url like :  http://localhost:9020/api/name_of_hotel
    In 'prod' profile there is a mechanism made of spring data which should access real db and gets the requested hotel
   
    There are few tests for testing the buisness logic using mock rest call .
+   
+  # You can build the main service by running the run runMvn.bat ( build the app first) , than run app using the runMainApp.bat
+  #  To build the 2 servrices ( Vendors ) use runMvn.bat and than runVendorApp1.bat . runVendorApp2.bat
   
    
